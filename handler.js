@@ -192,7 +192,7 @@ module.exports = {
             anakrubah: 0,
             anakanjing: 0,
             makananpet: 0,
-            antispam: 0,
+            antispam: 5,
             antispamlastclaim: 0,
             kayu: 0,
             batu: 0,
@@ -224,25 +224,25 @@ module.exports = {
         if (chat) {
           if (!('isBanned' in chat)) chat.isBanned = false
           if (!('welcome' in chat)) chat.welcome = true
-          if (!('detect' in chat)) chat.detect = false
+          if (!('detect' in chat)) chat.detect = teue
           if (!('sWelcome' in chat)) chat.sWelcome = ''
           if (!('sBye' in chat)) chat.sBye = ''
           if (!('sPromote' in chat)) chat.sPromote = ''
           if (!('sDemote' in chat)) chat.sDemote = ''
           if (!('delete' in chat)) chat.delete = false
-          if (!('antiLink' in chat)) chat.antiLink = false
-          if (!'antiToxic' in chat) chat.antiToxic = false
+          if (!('antiLink' in chat)) chat.antiLink = true
+          if (!'antiToxic' in chat) chat.antiToxic = true
         } else global.DATABASE._data.chats[m.chat] = {
           isBanned: false,
-          welcome: false,
-          detect: false,
+          welcome: true,
+          detect: true,
           sWelcome: '',
           sBye: '',
           sPromote: '',
           sDemote: '',
           delete: false,
-          antiLink: false,
-          antiToxic: false,
+          antiLink: true,
+          antiToxic: true,
         }
       } catch (e) {
         console.error(e)
@@ -572,15 +572,15 @@ ketik *.off delete* untuk mematikan pesan ini
 
 global.dfail = (type, m, conn) => {
   let msg = {
-    rowner: 'Maaf fitur ini hanya bisa digunakan oleh *Owner DanzBot*', 
-    owner: 'Maaf fitur ini hanya bisa digunakan oleh *Owner DanzBot*',
-    mods: 'Maaf fitur ini hanya bisa digunakan oleh *Moderator DanzBot*',
+    rowner: 'Maaf fitur ini hanya bisa digunakan oleh *Owner ArullBotz*', 
+    owner: 'Maaf fitur ini hanya bisa digunakan oleh *Owner ArullBotz*',
+    mods: 'Maaf fitur ini hanya bisa digunakan oleh *Moderator ArullBotz*',
     premium: 'Maaf fitur ini hanya bisa digunakan oleh user *Premium*',
     group: 'Maaf fitur ini hanya bisa digunakan di *Group*',
     private: 'Maaf fitur ini hanya bisa digunakan di *Private*',
     admin: 'Maaf fitur ini hanya bisa digunakan *Admin*',
     botAdmin: 'Jadikan bot sebagai *Admin* untuk menggunakan fitur ini',
-    unreg: '── 「 DANZBOT REGISTERED😈🔥 」 ──\nHalo Cuy Sebelum Memakai *DanzBot* Register Dulu Ya. Cara Register Tinggal Ketik Dengan Cara *.daftar nama.umur*\nContohnya .daftar DanzBot.18\n\nNote:\nSaya Harap Anda Tidak Meminta Save Pada *DanzBot* Dan Tidak Meminta Save Pada Owner Saya *Danz*',
+    unreg: '── 「 ArullBotz REGISTERED😈🔥 」 ──\nHalo Cuy Sebelum Memakai *ArullBotz* Register Dulu Ya. Cara Register Tinggal Ketik Dengan Cara *.daftar nama.umur*\nContohnya .daftar ArullBotz.18\n\nNote:\nSaya Harap Anda Tidak Meminta Save Pada *ArullBotz* Dan Tidak Meminta Save Pada Owner Saya *Arull*',
   }[type]
   if (msg) return m.reply(msg)
 }
