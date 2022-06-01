@@ -1,7 +1,7 @@
 {
-  "name": "NayLaBotz",
+  "name": "ArullBotz",
   "version": "14.18.2",
-  "description": "© nayla",
+  "description": "© Arull",
   "depecrated": "false",
   "main": "index.js",
   "directories": {
@@ -17,16 +17,16 @@
   "keywords": [
     "botwea"
   ],
-  "homepage": "https://github.com/ItzLighting9332/nayla-app",
+  "homepage": "https://github.com/Arullzzz/nayla-app",
   "author": {
-    "name": "ItzLighting9332"
+    "name": "Arullzzz"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ItzLighting9332/nayla-app.git"
+    "url": "git+https://github.com/Arullzzz/nayla-app.git"
   },
   "bugs": {
-    "url": "https://github.com/ItzLighting9332/nayla-app/issues"
+    "url": "https://github.com/Arullzzz/nayla-app/issues"
   },
   "license": "GPL-3.0-or-later",
   "dependencies": {
