@@ -578,9 +578,9 @@ global.dfail = (type, m, conn) => {
     premium: 'Maaf fitur ini hanya bisa digunakan oleh user *Premium*',
     group: 'Maaf fitur ini hanya bisa digunakan di *Group*',
     private: 'Maaf fitur ini hanya bisa digunakan di *Private*',
-    admin: 'Maaf fitur ini hanya bisa digunakan *Admin*',
+    admin: 'Maaf,Anda Bukan *Admin* Jadi Gabisa Make Fitur Ini‼️',
     botAdmin: 'Jadikan bot sebagai *Admin* untuk menggunakan fitur ini',
-    unreg: '── 「 ArullBotz REGISTERED😈🔥 」 ──\nHalo Cuy Sebelum Memakai *ArullBotz* Register Dulu Ya. Cara Register Tinggal Ketik Dengan Cara *.daftar nama.umur*\nContohnya .daftar ArullBotz.18\n\nNote:\nSaya Harap Anda Tidak Meminta Save Pada *ArullBotz* Dan Tidak Meminta Save Pada Owner Saya *Arull*',
+    unreg: '── 「 ArullBotz REGISTERED 」 ──\nHallo Saya ArullBotz,Sebelum Memakai *ArullBotz* Register Dulu Ya. Cara Register Tinggal Ketik Dengan Cara *.daftar nama.umur*\nContohnya .daftar ArullBotz.18\n\nNote:\nSaya Harap Anda Tidak Meminta Save Pada *ArullBotz* Kalo Mau Minta Save Sama Owner Saya Aja *Arull* khusus cewe‼️',
   }[type]
   if (msg) return m.reply(msg)
 }
