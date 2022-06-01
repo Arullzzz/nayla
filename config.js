@@ -35,11 +35,11 @@ global.author = 'ArullBotz'
 
 global.multiplier = 9999 // ini butuh berapa xp buat levelup 
 
-global.wait = '*WAIT,NGOPI DULU🥴*'
+global.wait = '*WAIT,NGUDUD DULU🥴EH TAPI KAYAKNYA EROR*'
 global.error = '*ERROR BANH MAAP🗿DAN JANGAN NANYA KNP*'
 global.botwm = 'ArullBotz' // watermark bot
 global.oname = 'Arull Owner' // nama owner nya
-global.thum = 'https://telegra.ph/file/hiruko.jpg'
+global.thum = 'hiruko.jpg'
 
 let chalk = require('chalk')
 let file = require.resolve(__filename)
